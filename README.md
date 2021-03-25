@@ -5,7 +5,7 @@ Aqui o desafio é desenvolver um componente de precificação interativo.
 
 :pushpin: Aqui pude aplicar o conceito de mobile-first utilizando SASS.
 
-## Deploy
+### Deploy
 - Veja aqui o deploy da aplicação: <a href="https://interactive-component-value-jarbass.vercel.app/">Clique aqui<a>.
 
 ### Os usuários devem ser capazes de:
