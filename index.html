@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente de Preço Interativo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="bg-first">
+            <div class="bg-first-text">
+                <h2>Preços simples com base no tráfego</h2>
+                <p>Inscreva-se para nosso teste de 30 dias. Sem necessidade de cartão de crédito.</p>
+            </div>
+        </div>
+        <div class="bg-second"></div>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="title-value">
+                    <h3 id="title-box">100k pageviews</h3>
+                </div>
+
+                <div class="slider-container">
+                    <input type="range" min="8" max="36" value="20" class="slider" id="myRange" step="4"
+                        list="tickmarks">
+                    <datalist id="tickmarks">
+                        <option value="8" label="beginner">
+                        <option value="12"></option>
+                        <option value="16"></option>
+                        <option value="24"></option>
+                        <option value="36"></option>
+                    </datalist>
+                </div>
+
+                <div class="value">
+                    <b id="value-mounth">$16.00</b><span>/ mês</span>
+                </div>
+
+                <div class="type-plan">
+                    <p>Faturamento Mensal</p>
+                    <div class="check-slide">
+                        <input type="checkbox" value="none" name="check" id="check-slide">
+                        <label for="check-slide"></label>
+                    </div>
+                    <p>Faturamento Anual</p>
+                </div>
+
+                <span class="diviser"></span>
+
+                <div class="benefits-btn">
+                    <div class="benefits">
+                        <span><img src="./images/icon-check.svg" alt="check">Websites Ilimitados</span>
+                        <span><img src="./images/icon-check.svg" alt="check">100% propriedade de dados</span>
+                        <span><img src="./images/icon-check.svg" alt="check">Relatórios por email</span>
+                    </div>
+
+                    <button class="btn">Iniciar plano trial</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
