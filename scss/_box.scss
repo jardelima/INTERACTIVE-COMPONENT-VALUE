@@ -162,6 +162,7 @@
     background-color: $darkBlue;
     color: $softBlue;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 @include responsive(ipad) {
