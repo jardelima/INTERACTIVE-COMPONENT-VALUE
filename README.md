@@ -14,3 +14,11 @@ Aqui o desafio é desenvolver um componente de precificação interativo.
 - CSS
 - SASS
 - JAVASCRIPT
+
+### Layout Desktop / Mobile
+
+Desktop:<br>
+<img src="https://github.com/jardelima/INTERACTIVE-COMPONENT-VALUE/blob/master/images/desktop-view.PNG" alt="Layout Desktop" width="450" height="300"/>
+
+Mobile:<br>
+<img src="https://github.com/jardelima/INTERACTIVE-COMPONENT-VALUE/blob/master/images/mobile-view.PNG" alt="Layout Desktop" width="245" height="450"/>
