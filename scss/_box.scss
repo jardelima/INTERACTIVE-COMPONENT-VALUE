@@ -210,4 +210,21 @@
             margin-bottom: 0;
         }
     }
+
+    .benefits-btn {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .benefits {
+        align-items: flex-start;
+    }
+
+    .btn {
+        padding: 0;
+        height: 55px;
+        width: 230px;
+    }
 }
