@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    // position: relative;
+}
+
+.bg-first {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/bg-pattern.svg");
+    background-repeat: no-repeat;
+}
+
+.bg-first-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5rem 0;
+    text-align: center;
+    background-image: url("../images/pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h2 {
+        font-size: 1.15rem;
+        color: $darkBlue;
+    }
+
+    p {
+        padding: 1rem 1.3rem;
+        color: $blue;
+    }
+}
+
+.bg-second {
+    content: "";
+    width: 100%;
+    height: 50vh;
+}
+
+@include responsive(desktop) {
+    .bg-first-text {
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    #title-box {
+        font-size: 1.3rem;
+    }
+}
